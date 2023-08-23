@@ -1,0 +1,42 @@
+.form {
+  height: 400px;
+  width: 300px;
+}
+
+.form .form-size {
+  background-color: #7c8a9f;
+  border-radius: 16px;
+  height: 570px;
+  right: 60px;
+  padding: 22px;
+  position: fixed;
+  top: 18%;
+  width: 500px;
+  overflow: hidden;
+  background-image: url("C:\Users\x\Desktop\Aug_work\Aug_Task-Work\frontend\src\database (1).png");
+  background-size: 33px;
+  background-position: 2%;
+  background-repeat: no-repeat;
+  background-position-y: 50px; 
+
+}
+
+.form .form-size p.type-text {
+  position: absolute;
+  top:15%;
+
+  margin: 0;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  
+ 
+}
+.head{
+  position: absolute;
+  left:9%;
+  
+}
