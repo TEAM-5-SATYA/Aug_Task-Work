@@ -13,12 +13,12 @@
   top: 18%;
   width: 500px;
   overflow: hidden;
-  background-image: url("C:\Users\x\Desktop\Aug_work\Aug_Task-Work\frontend\src\database (1).png");
+  background-image: url("C:\Users\x\Desktop\Aug_work\Aug_Task-Work\frontend\src\Database-L0g0.png");
   background-size: 33px;
   background-position: 2%;
   background-repeat: no-repeat;
-  background-position-y: 50px; 
-
+  background-position-y: 38px; 
+  
 }
 
 .form .form-size p.type-text {
@@ -37,6 +37,8 @@
 }
 .head{
   position: absolute;
-  left:9%;
+  top:10px;
+  left:10%;
+  color: #ffffff;
   
 }
