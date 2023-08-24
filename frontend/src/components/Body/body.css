@@ -1,0 +1,161 @@
+/* 
+.form0{
+    position: absolute;
+    background-color: #B56464;
+    top: 18%;
+    left: 5%;
+    padding: 120px;
+    border-radius: 5%;
+    border: 7px solid #d8d8d8;
+}
+.form1{
+    position: absolute;
+    background-color: #B56464;
+    top: 18%;
+    left: 25%;
+    padding: 120px;
+    border-radius: 5%;
+    border: 7px solid #d8d8d8;
+}
+.form2{
+    position: absolute;
+    background-color: #B56464;
+    top: 18%;
+    left: 45%;
+    padding: 120px;
+    border-radius: 5%;
+    border: 7px solid #d8d8d8;
+}
+
+
+.form3{
+    position: absolute;
+    background-color: #B56464;
+    top: 50%;
+    left: 5%;
+    padding: 120px;
+    border-radius: 5%;
+    border: 7px solid #d8d8d8;
+}
+
+.form4{
+    position: absolute;
+    background-color: #B56464;
+    top: 50%;
+    left: 25%;
+    padding: 120px;
+    border-radius: 5%;
+    border: 7px solid #d8d8d8;
+}
+.form5{
+    position: absolute;
+    background-color: #B56464;
+    top: 50%;
+    left: 45%;
+    padding: 120px;
+    border-radius: 5%;
+    border: 7px solid #d8d8d8;
+}
+
+.text{
+    position: absolute;
+    top: 82%;
+    left: 60px;
+    transform: translateY(-50%);
+} */
+.forms-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    /* height: 100vh; */
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: 20px;
+}
+.forms-container form{
+    width: 250px;
+    height: 250px;
+    background-color: #B56464;
+    border-radius: 5%;
+    border: 7px solid #d8d8d8;
+    margin: 20px;
+        
+}   
+.form {
+    /* height: 400px; */
+    width: 28vw;
+    /* min-height: 80vh; */
+    margin: 20px 20px;
+    /* border: 2px solid black; */
+  
+  }
+  
+  .form .form-size {
+    background-color: #7c8a9f;
+    border-radius: 16px;
+    height: 95%;
+    /* right: 60px; */
+    padding: 22px;
+    /* position: fixed; */
+    /* top: 18%; */
+    /* width: 10; */
+    overflow: hidden;
+    background-image: url("C:\Users\x\Desktop\Aug_work\Aug_Task-Work\frontend\src\Database-L0g0.png");
+    background-size: 33px;
+    background-position: 2%;
+    background-repeat: no-repeat;
+    background-position-y: 38px; 
+    /* margin:10%; */
+    
+  }
+  
+  .form .form-size p.type-text {
+    /* position: absolute;
+    top:15%; */
+  
+    margin: 0;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+   
+  }
+  .head{
+    /* position: absolute;
+    top:10px;
+    left:10%; */
+    color: #ffffff;
+    
+  }
+@media (max-width:1010px){
+    .forms-container{
+        width: 90vw;
+        /* text-align: center; */
+        justify-content: center;
+        height: 100%;
+
+    }
+    .form{
+        width: 90vw;
+        height: 100%;
+
+    }
+    .body-container{
+        flex-direction: column;
+    }
+    .form-size{
+        min-height: 500px;
+    }
+}
+
+@media (min-width:1011px){
+    .form{
+        min-height: 80vh;
+    }
+}
+.head{
+    margin:10px 0 0 30px;
+}
