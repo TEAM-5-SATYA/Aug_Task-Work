@@ -5,7 +5,7 @@
   
   .box .rectangle {
     background-color: #4b6388;
-    height: 5 0px;
+    height: 60px;
     width: 100%;
     background-image: url(C:\Users\x\Desktop\Aug_work\Aug_Task-Work\frontend\src\git.png);
     background-size: 33px;
@@ -28,5 +28,5 @@
   }
 
   .copyright p{
-    margin: 0;
+    margin: 0%;
   }
